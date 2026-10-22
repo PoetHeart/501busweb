@@ -1,0 +1,22 @@
+B3A 到站 · 深圳湾方向
+
+打开方法：双击 index.html，在浏览器中打开即可。需要互联网连接。
+无需安装依赖，无需 API 密钥。
+
+功能：
+- 城巴 B3A 山景邨 → 深圳湾口岸，全线车站选择和搜索。
+- 所选上车站接下来三班车的预计到站时间。
+- 每 30 秒自动刷新，可暂停或手动刷新。
+- 自动记住上次所选车站，提供 Google 地图车站位置链接。
+- 显示数据时间、过期提醒、无班次和连接失败状态。
+- 手机及电脑布局。
+
+站表会从官方 API 更新；离线时可读取随附的 route-data.js 站表快照。
+到站预测始终读取官方实时接口，不使用模拟或离线班次。
+时间为香港时间（Asia/Hong_Kong）。预测并非保证，请提前候车。
+
+数据来源（城巴 / DATA.GOV.HK）：
+https://data.gov.hk/en-data/dataset/ctb-eta-transport-realtime-eta
+https://rt.data.gov.hk/v2/transport/citybus/
+
+此网页为非官方网页。
